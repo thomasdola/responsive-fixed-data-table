@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/responsive-fixed-data-table.svg)](http://badge.fury.io/js/responsive-fixed-data-table) 
+<!--[![npm version](https://badge.fury.io/js/responsive-fixed-data-table.svg)](http://badge.fury.io/js/responsive-fixed-data-table) 
 # responsive-fixed-data-table
 Responsive wrapper for [Facebook's Fixed-Data-Table](https://github.com/facebook/fixed-data-table) grids
 
@@ -34,4 +34,4 @@ Width and height will be overriden to take all the available space of its parent
 **refreshRate** *{Number}*: Time in milliseconds to debounce the resize handler.
 
 ### React 0.13 compatibility
-If you want to use this module with old versions of React and FixedDataTable please check the **v1.5.0-deprecated** branch.
+If you want to use this module with old versions of React and FixedDataTable please check the **v1.5.0-deprecated** branch.-->
