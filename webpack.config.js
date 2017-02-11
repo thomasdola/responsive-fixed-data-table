@@ -25,11 +25,11 @@ if (minify) {
 
 module.exports = {
 	context: __dirname,
-	entry: path.resolve(__dirname, 'src', 'responsive-fixed-data-table.js'),
+	entry: path.resolve(__dirname, 'src', 'responsive-fixed-data-table-2.js'),
 	output: {
 		path: path.resolve(__dirname, 'lib'),
-		filename: 'responsive-fixed-data-table' + (minify ? '.min.js' : '.js'),
-		library: 'ResponsiveFixedDataTable',
+		filename: 'responsive-fixed-data-table-2' + (minify ? '.min.js' : '.js'),
+		library: 'ResponsiveFixedDataTable2',
 		libraryTarget: 'umd'
 	},
 	externals: {
@@ -45,11 +45,11 @@ module.exports = {
 			commonjs: 'react-dom',
 			amd: 'react-dom'
 		},
-		'fixed-data-table': {
+		'fixed-data-table-2': {
 			root: 'FixedDataTable',
-			commonjs2: 'fixed-data-table',
-			commonjs: 'fixed-data-table',
-			amd: 'fixed-data-table'
+			commonjs2: 'fixed-data-table-2',
+			commonjs: 'fixed-data-table-2',
+			amd: 'fixed-data-table-2'
 		}
 	},
 	resolve: {

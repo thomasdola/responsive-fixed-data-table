@@ -3,7 +3,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
-import ResponsiveFixedDataTable from './../../src/responsive-fixed-data-table';
+
+import ResponsiveFixedDataTable from './../../src/responsive-fixed-data-table-2';
 
 describe('responsive-fixed-data-table', function() {
 	let table;
